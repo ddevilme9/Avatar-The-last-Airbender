@@ -19,8 +19,10 @@ h3 {
   color: black;
 
 }
-a:hover {
+a:hover, a:active, a:focus {
   background-color: cyan;
 }
 a { color: black; }
-}
+
+a:visited {
+  color: black;}
